@@ -1,0 +1,37 @@
+/* Write your code here. */
+.icon {
+  min-width: 150px;
+}
+@ media screen and (min-width:768px){
+    .icon{
+        min-width:300px;
+    }
+}
+.title{
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.message{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.container{
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+.info-cont{
+    background-color: #0b69ff;
+    width: 40px;
+}
+.success-cont{
+    background-color: #2dca73;
+    width: 40px;
+}
+.warn-cont{
+    background-color: #ffb800;
+    width: 40px;
+}
+.dang-cont{
+    background-color: #ff0b37;
+    width: 40px;
+}
